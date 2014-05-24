@@ -4,7 +4,7 @@ module Packages
   ##
   # Define the base Repo object
   class Repo
-    attr_reader :distro, :version, :packages
+    attr_reader :distro, :version, :codename, :packages
   end
 
   class Package
