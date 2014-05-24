@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.date        = Time.now.strftime("%Y-%m-%d")
 
   s.summary     = 'Library for accessing package information'
-  s.description = "Wrapper for providing generic access to packages on various systems"
+  s.description = "Wrapper for providing normalized access to packages information for various systems"
   s.authors     = ['Les Aker']
   s.email       = 'me@lesaker.org'
   s.homepage    = 'https://github.com/akerl/packages'
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.files       = `git ls-files`.split
   s.test_files  = `git ls-files spec/*`.split
 
-  s.add_development_dependency 'rubocop', '~> 0.20.1'
+  s.add_development_dependency 'rubocop', '~> 0.22.0'
   s.add_development_dependency 'rake', '~> 10.3.0'
   s.add_development_dependency 'coveralls', '~> 0.7.0'
   s.add_development_dependency 'rspec', '~> 2.14.1'
