@@ -8,7 +8,7 @@ packages
 [![Build Status](https://img.shields.io/travis/akerl/packages.svg)](https://travis-ci.org/akerl/packages)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
-Wrapper for providing generic access to packages on various systems
+Wrapper for providing normalized access to packages information for various systems.
 
 ## Usage
 
