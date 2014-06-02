@@ -17,16 +17,15 @@ module Packages
     private
 
     def load_repo
-      repo = open("#{@url}/Release" ) do |fh|
+      repo = open("#{@url}/Release") do |fh|
         Hash[fh.readlines[1..7].map { |x| x.strip.split ': ' }]
       end
       @distro = repo['Label']
       @version = repo['Version']
       @codename = repo['Codename']
       @components = repo['Components'].split
-      unless repo['Architectures'].split.include? @arch
-        fail 'specificed arch not found'
-      end
+      return if repo['Architectures'].split.include? @arch
+      fail 'specificed arch not found'
     end
 
     def load_packages
@@ -37,5 +36,3 @@ module Packages
     end
   end
 end
-
-# packages = File.read('Packages').split("\n\n").map { |x| x.split("\n").map { |y| y.split(': ', 2) } }.map { |x| Hash[x] }.each_with_object({}) { |i, a| a[i.delete('Package')] = i }
