@@ -4,7 +4,7 @@ require 'zlib'
 module Packages
   ##
   # Support for apt repos
-  class APT < Repo
+  class APT < Backend
     attr_reader :arch, :url
 
     def initialize(params = {})
