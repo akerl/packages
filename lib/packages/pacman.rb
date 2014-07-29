@@ -1,7 +1,7 @@
 module Packages
   ##
   # Support for apt repos
-  class APT < Backend
+  class Pacman < Backend
     def initialize(params = {})
     end
   end

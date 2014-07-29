@@ -1,7 +1,7 @@
 module Packages
   ##
   # Support for apt repos
-  class APT < Backend
+  class Homebrew < Backend
     def initialize(params = {})
     end
   end

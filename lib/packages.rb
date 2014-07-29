@@ -31,3 +31,8 @@ module Packages
     attr_reader :name, :version
   end
 end
+
+require 'packages/apt'
+require 'packages/rpm'
+require 'packages/pacman'
+require 'packages/homebrew'
