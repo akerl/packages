@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name        = 'packages'
   s.version     = '0.0.1'
-  s.date        = Time.now.strftime("%Y-%m-%d")
+  s.date        = Time.now.strftime('%Y-%m-%d')
 
   s.summary     = 'Library for accessing package information'
-  s.description = "Wrapper for providing normalized access to packages information for various systems"
+  s.description = 'Wrapper for providing normalized access to packages information for various systems' # rubocop:disable Metrics/LineLength
   s.authors     = ['Les Aker']
   s.email       = 'me@lesaker.org'
   s.homepage    = 'https://github.com/akerl/packages'
