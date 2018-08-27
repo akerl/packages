@@ -4,7 +4,6 @@ packages
 =========
 
 [![Gem Version](https://img.shields.io/gem/v/packages.svg?style=flat)](https://rubygems.org/gems/packages)
-[![Dependency Status](https://img.shields.io/gemnasium/akerl/packages.svg?style=flat)](https://gemnasium.com/akerl/packages)
 [![Code Climate](https://img.shields.io/codeclimate/github/akerl/packages.svg?style=flat)](https://codeclimate.com/github/akerl/packages)
 [![Coverage Status](https://img.shields.io/coveralls/akerl/packages.svg?style=flat)](https://coveralls.io/r/akerl/packages)
 [![Build Status](https://img.shields.io/travis/akerl/packages.svg?style=flat)](https://travis-ci.org/akerl/packages)
